@@ -10,6 +10,9 @@ export class BackgroundVideoComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+
   }
+
+
 
 }

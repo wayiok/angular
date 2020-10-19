@@ -1,10 +1,15 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, NgModule, OnInit} from '@angular/core';
+
 
 @Component({
   selector: 'app-heaader',
   templateUrl: './heaader.component.html',
   styleUrls: ['./heaader.component.css']
 })
+
+
+
+
 export class HeaaderComponent implements OnInit {
 
   constructor() { }
@@ -20,7 +25,5 @@ export class HeaaderComponent implements OnInit {
       x.className = "topnav";
     }
   }
-
-
 
 }
