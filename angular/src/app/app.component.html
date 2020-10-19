@@ -6,21 +6,12 @@
   </head>
 
   <body>
-  <div class="topnav" id="myTopnav">
-    <a class="active" href="#home"> HOME </a>
-    <a href="#news">NEWS</a>
-    <a href="#contact">CONTACT</a>
-    <a href="#about">ABOUT</a>
-    <a href="javascript:void(0);" class="icon" (click)="deployMenu()">
-      <i class="fa fa-bars"></i>
-    </a>
-  </div>
-  <div>
-
-  </div>
+  <app-heaader></app-heaader>
+  <router-outlet></router-outlet>
+  <app-footer></app-footer>
   </body>
 </html>
 
 
 
-<router-outlet></router-outlet>
+
