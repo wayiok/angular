@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 
 import {AppRoutingModule, routingComponents} from './app-routing.module';
 import { AppComponent } from './app.component';
-import {FormsModule} from "@angular/forms";
+import {FormsModule} from '@angular/forms';
 import { BackgroundVideoComponent } from './background-video/background-video.component';
 import { PricesComponent } from './prices/prices.component';
 import { HeaaderComponent } from './heaader/heaader.component';
